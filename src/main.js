@@ -4,7 +4,7 @@ import { menus } from "./menu";
 function show_menu() {
   if (menus) {
     const menu = menus.map((item) => ` <li class=""><a href="" class=" text-2xl text-white block py-4 px-3 hover:underline hover:bg-white hover:text-black hover:ease-in-out duration-500" >${item}</a></li>`);
-    document.getElementById("menu").innerHTML = menu;
+    document.getElementById("menu").innerHTML = menu.join(" ");
   }
 }
 function show_product() {
