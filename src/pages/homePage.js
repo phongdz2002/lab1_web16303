@@ -5,9 +5,6 @@ import { tinHocTap } from "../components/tinHocTap";
 export const homeHtml = {
     print: () => `
     <main>
-    <div id="banner">
-    <img src="img/banner.jpg">
-    </div>
     <div id="news">
     ${tinHocTap.print()}
     </div>
