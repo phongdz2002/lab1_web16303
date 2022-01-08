@@ -4,11 +4,11 @@ import { menus } from "../menu";
 export const Header = {
     print: () => `
     <header class="bg-black">
-        <a href=""> <img src="./img/logo.jpg" alt="" class="m-auto h-40"></a>
+        <a href="/"> <img src="./img/logo.jpg" alt="" class="m-auto h-40"></a>
       <nav class="bg-blue-500">
         <ul class="flex  justify-between">
           <div id="menu" class="flex  px-3">
-            ${menus.map((item) => ` <li class=""><a href="" class=" text-white block py-3 px-2  hover:bg-white hover:text-black hover:ease-in-out duration-500" >${item}</a></li>`).join("")}
+            ${menus.map((item) => ` <li class=""><a href="/about" class=" text-white block py-3 px-2  hover:bg-white hover:text-black hover:ease-in-out duration-500" >${item}</a></li>`).join("")}
           </div>
           <div class="mx-3">
             <form action="" class="my-2">
