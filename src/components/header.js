@@ -1,4 +1,4 @@
-import { menus } from "../menu";
+import { menus } from "../../../my-app-2/src/menu";
 
 // eslint-disable-next-line import/prefer-default-export
 export const Header = {

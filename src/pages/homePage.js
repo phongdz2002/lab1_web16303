@@ -15,7 +15,6 @@ export const homeHtml = {
     <div id="post">
     ${hoatDong.print()}
     </div>
-      
     </main>
     <footer class="bg-black text-center text-white py-5">
       <p class="animate-[doiMau_2s_ease-in-out_infinite] text-3xl">Phongnvph18006_WEB16303</p>
