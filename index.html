@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,71 +7,69 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="../soft-ui-dashboard-main/assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="../soft-ui-dashboard-main/assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="../soft-ui-dashboard-main/assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
-  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="../assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <link id="pagestyle" href="../soft-ui-dashboard-main/assets/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <div class="" id="app">
-   <div class="xl:container m-auto">
-    <div id="top">
-      <header class="bg-black relative	">
-        <a href="/"> <img src="img/logo.jpg" alt="" class="m-auto h-40"></a>
-        <div class="flex absolute	right-0 top-0 ">
-          <button class="bg-white p-3 hover:bg-blue-500 hover:ease-in duration-300 text-xl hover:text-white"><a href="/login">Đăng Nhập</a></button>
-          <button class="bg-white p-3 hover:bg-red-500 hover:ease-in duration-300 text-xl hover:text-white"><a href="/resign">Đăng Ký</a></button>
-        </div>
-      <nav class="bg-blue-500">
-        <ul class="flex  justify-between">
-          <div id="menu" class="flex  px-3">
-            
+  <div id="app">
+    <div class="xl:container m-auto">
+      <div id="top">
+        <header class="bg-black relative	">
+          <a href="/"> <img src="img/logo.jpg" alt="" class="m-auto h-40"></a>
+          <div class="flex absolute	right-0 top-0 ">
+            <button class="bg-white p-3 hover:bg-blue-500 hover:ease-in duration-300 text-xl hover:text-white"><a href="/login">Đăng Nhập</a></button>
+            <button class="bg-white p-3 hover:bg-red-500 hover:ease-in duration-300 text-xl hover:text-white"><a href="/resign">Đăng Ký</a></button>
           </div>
-          <div class="mx-3" >
-            <form action="" class="my-2">
-              <input type="text" class="p-2 h-10 w-96
-               lg:w-80"  placeholder="Bạn muốn tìm gì ?">
-              <button class="bg-green-800 text-white p-2 hover:bg-orange-500 hover:ease-in-out duration-500 lg:30">Tìm
-                kiếm</button>
-             
-            </form>
-          </div>
-        </ul>
-
-      </nav>
-    </header>
-    </div>
-    <div id="banner">
-      <img src="./img/banner.jpg">
+        <nav class="bg-blue-500">
+          <ul class="flex  justify-between">
+            <div id="menu" class="flex  px-3">
+              
+            </div>
+            <div class="mx-3" >
+              <form action="" class="my-2">
+                <input type="text" class="p-2 h-10 w-96
+                 lg:w-80"  placeholder="Bạn muốn tìm gì ?">
+                <button class="bg-green-800 text-white p-2 hover:bg-orange-500 hover:ease-in-out duration-500 lg:30">Tìm
+                  kiếm</button>
+               
+              </form>
+            </div>
+          </ul>
+  
+        </nav>
+      </header>
       </div>
-    <div id="content">
-
-
-    </div>
-    <div id="bot">
-      <footer class="bg-black text-center text-white py-5">
-        <p class="animate-[doiMau_2s_ease-in-out_infinite] text-3xl">Phongnvph18006_WEB16303</p>
-      </footer>
-    </div>
-   </div>
+      <div id="banner">
+        <img src="./img/banner.jpg">
+        </div>
+      <div id="content">
+  
+  
+      </div>
+      <div id="bot">
+        <footer class="bg-black text-center text-white py-5">
+          <p class="animate-[doiMau_2s_ease-in-out_infinite] text-3xl">Phongnvph18006_WEB16303</p>
+        </footer>
+      </div>
+     </div>
+    
+    <!--   Core JS Files   -->
+    <script src="../soft-ui-dashboard-main/assets/js/core/popper.min.js"></script>
+    <script src="../soft-ui-dashboard-main/assets/js/core/bootstrap.min.js"></script>
+    <script src="../soft-ui-dashboard-main/assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="../soft-ui-dashboard-main/assets/js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="../soft-ui-dashboard-main/assets/js/plugins/chartjs.min.js"></script>
+  
   </div>
-  <script src="../assets/js/core/jquery.min.js"></script>
-  <script src="../assets/js/core/popper.min.js"></script>
-  <script src="../assets/js/core/bootstrap.min.js"></script>
-  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <!--  Google Maps Plugin    -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-  <!-- Chart JS -->
-  <script src="../assets/js/plugins/chartjs.min.js"></script>
-  <!--  Notifications Plugin    -->
-  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
-  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script><!-- Paper Dashboard DEMO methods, don't include it in your project! -->
   <script type="module" src="./src/main.js"></script>
 </body>
 
