@@ -109,9 +109,9 @@ export const AdminHomePage = {
               </div>
               <div class="col-lg-5 ms-auto text-center mt-5 mt-lg-0">
                 <div class="bg-gradient-primary border-radius-lg h-100">
-                  <img src="../soft-ui-dashboard-main/assets/img/shapes/waves-white.svg" class="position-absolute h-100 w-50 top-0 d-lg-block d-none" alt="waves">
+                  <img src="./soft-ui-dashboard-main/assets/img/shapes/waves-white.svg" class="position-absolute h-100 w-50 top-0 d-lg-block d-none" alt="waves">
                   <div class="position-relative d-flex align-items-center justify-content-center h-100">
-                    <img class="w-100 position-relative z-index-2 pt-4" src="../soft-ui-dashboard-main/assets/img/illustrations/rocket-white.png" alt="rocket">
+                    <img class="w-100 position-relative z-index-2 pt-4" src="./soft-ui-dashboard-main/assets/img/illustrations/rocket-white.png" alt="rocket">
                   </div>
                 </div>
               </div>
@@ -121,7 +121,7 @@ export const AdminHomePage = {
       </div>
       <div class="col-lg-5">
         <div class="card h-100 p-3">
-          <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../soft-ui-dashboard-main/assets/img/ivancik.jpg');">
+          <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('./soft-ui-dashboard-main/assets/img/ivancik.jpg');">
             <span class="mask bg-gradient-dark"></span>
             <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
               <h5 class="text-white font-weight-bolder mb-4 pt-2">Work with the rockets</h5>
@@ -311,7 +311,7 @@ export const AdminHomePage = {
                     <td>
                       <div class="d-flex px-2 py-1">
                         <div>
-                          <img src="../soft-ui-dashboard-main/assets/img/small-logos/logo-xd.svg" class="avatar avatar-sm me-3" alt="xd">
+                          <img src="./soft-ui-dashboard-main/assets/img/small-logos/logo-xd.svg" class="avatar avatar-sm me-3" alt="xd">
                         </div>
                         <div class="d-flex flex-column justify-content-center">
                           <h6 class="mb-0 text-sm">Soft UI XD Version</h6>
@@ -321,16 +321,16 @@ export const AdminHomePage = {
                     <td>
                       <div class="avatar-group mt-2">
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-1.jpg" alt="team1">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-1.jpg" alt="team1">
                         </a>
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-2.jpg" alt="team2">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-2.jpg" alt="team2">
                         </a>
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Alexander Smith">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-3.jpg" alt="team3">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-3.jpg" alt="team3">
                         </a>
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-4.jpg" alt="team4">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-4.jpg" alt="team4">
                         </a>
                       </div>
                     </td>
@@ -354,7 +354,7 @@ export const AdminHomePage = {
                     <td>
                       <div class="d-flex px-2 py-1">
                         <div>
-                          <img src="../soft-ui-dashboard-main/assets/img/small-logos/logo-atlassian.svg" class="avatar avatar-sm me-3" alt="atlassian">
+                          <img src="./soft-ui-dashboard-main/assets/img/small-logos/logo-atlassian.svg" class="avatar avatar-sm me-3" alt="atlassian">
                         </div>
                         <div class="d-flex flex-column justify-content-center">
                           <h6 class="mb-0 text-sm">Add Progress Track</h6>
@@ -364,10 +364,10 @@ export const AdminHomePage = {
                     <td>
                       <div class="avatar-group mt-2">
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-2.jpg" alt="team5">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-2.jpg" alt="team5">
                         </a>
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-4.jpg" alt="team6">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-4.jpg" alt="team6">
                         </a>
                       </div>
                     </td>
@@ -391,7 +391,7 @@ export const AdminHomePage = {
                     <td>
                       <div class="d-flex px-2 py-1">
                         <div>
-                          <img src="../soft-ui-dashboard-main/assets/img/small-logos/logo-slack.svg" class="avatar avatar-sm me-3" alt="team7">
+                          <img src="./soft-ui-dashboard-main/assets/img/small-logos/logo-slack.svg" class="avatar avatar-sm me-3" alt="team7">
                         </div>
                         <div class="d-flex flex-column justify-content-center">
                           <h6 class="mb-0 text-sm">Fix Platform Errors</h6>
@@ -401,10 +401,10 @@ export const AdminHomePage = {
                     <td>
                       <div class="avatar-group mt-2">
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-3.jpg" alt="team8">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-3.jpg" alt="team8">
                         </a>
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-1.jpg" alt="team9">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-1.jpg" alt="team9">
                         </a>
                       </div>
                     </td>
@@ -428,7 +428,7 @@ export const AdminHomePage = {
                     <td>
                       <div class="d-flex px-2 py-1">
                         <div>
-                          <img src="../soft-ui-dashboard-main/assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm me-3" alt="spotify">
+                          <img src="./soft-ui-dashboard-main/assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm me-3" alt="spotify">
                         </div>
                         <div class="d-flex flex-column justify-content-center">
                           <h6 class="mb-0 text-sm">Launch our Mobile App</h6>
@@ -438,16 +438,16 @@ export const AdminHomePage = {
                     <td>
                       <div class="avatar-group mt-2">
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-4.jpg" alt="user1">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-4.jpg" alt="user1">
                         </a>
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-3.jpg" alt="user2">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-3.jpg" alt="user2">
                         </a>
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Alexander Smith">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-4.jpg" alt="user3">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-4.jpg" alt="user3">
                         </a>
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-1.jpg" alt="user4">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-1.jpg" alt="user4">
                         </a>
                       </div>
                     </td>
@@ -471,7 +471,7 @@ export const AdminHomePage = {
                     <td>
                       <div class="d-flex px-2 py-1">
                         <div>
-                          <img src="../soft-ui-dashboard-main/assets/img/small-logos/logo-jira.svg" class="avatar avatar-sm me-3" alt="jira">
+                          <img src="./soft-ui-dashboard-main/assets/img/small-logos/logo-jira.svg" class="avatar avatar-sm me-3" alt="jira">
                         </div>
                         <div class="d-flex flex-column justify-content-center">
                           <h6 class="mb-0 text-sm">Add the New Pricing Page</h6>
@@ -481,7 +481,7 @@ export const AdminHomePage = {
                     <td>
                       <div class="avatar-group mt-2">
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-4.jpg" alt="user5">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-4.jpg" alt="user5">
                         </a>
                       </div>
                     </td>
@@ -505,7 +505,7 @@ export const AdminHomePage = {
                     <td>
                       <div class="d-flex px-2 py-1">
                         <div>
-                          <img src="../soft-ui-dashboard-main/assets/img/small-logos/logo-invision.svg" class="avatar avatar-sm me-3" alt="invision">
+                          <img src="./soft-ui-dashboard-main/assets/img/small-logos/logo-invision.svg" class="avatar avatar-sm me-3" alt="invision">
                         </div>
                         <div class="d-flex flex-column justify-content-center">
                           <h6 class="mb-0 text-sm">Redesign New Online Shop</h6>
@@ -515,10 +515,10 @@ export const AdminHomePage = {
                     <td>
                       <div class="avatar-group mt-2">
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-1.jpg" alt="user6">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-1.jpg" alt="user6">
                         </a>
                         <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
-                          <img src="../soft-ui-dashboard-main/assets/img/team-4.jpg" alt="user7">
+                          <img src="./soft-ui-dashboard-main/assets/img/team-4.jpg" alt="user7">
                         </a>
                       </div>
                     </td>
