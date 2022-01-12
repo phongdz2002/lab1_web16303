@@ -7,26 +7,32 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
-  <!-- Nucleo Icons -->
-  <link href="./src/soft-ui-dashboard-main/assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="./src/soft-ui-dashboard-main/assets/css/nucleo-svg.css" rel="stylesheet" />
-  <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-  <link href="./src/soft-ui-dashboard-main/assets/css/nucleo-svg.css" rel="stylesheet" />
-  <!-- CSS Files -->
-  <link id="pagestyle" href="./src/soft-ui-dashboard-main/assets/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />
-  <script src="./src/soft-ui-dashboard-main/assets/js/core/popper.min.js"></script>
-  <script src="./src/soft-ui-dashboard-main/assets/js/core/bootstrap.min.js"></script>
-  <script src="./src/soft-ui-dashboard-main/assets/js/plugins/perfect-scrollbar.min.js"></script>
-  <script src="./src/soft-ui-dashboard-main/assets/js/plugins/smooth-scrollbar.min.js"></script>
-  <script src="./src/soft-ui-dashboard-main/assets/js/plugins/chartjs.min.js"></script>
+  <link rel="shortcut icon" href="../notus-js-main/assets/img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../notus-js-main/assets/img/apple-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../notus-js-main/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+      charset="utf-8"
+    ></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <div id="app">
-    <div class="xl:container m-auto">
+  <div >
+    <div class="none:container" id="root">
+     <div>
       <div id="top">
         <header class="bg-black relative	">
           <a href="/"> <img src="./img/logo.jpg" alt="" class="m-auto h-40"></a>
@@ -54,7 +60,7 @@
       </header>
       </div>
       <div id="banner">
-        <img src="./img/banner.jpg">
+        <img src="./img/banner.jpg" class="w-full">
         </div>
       <div id="content">
   
@@ -70,6 +76,7 @@
     <!--   Core JS Files   -->
    
   
+     </div>
   </div>
   <script type="module" src="./src/main.js"></script>
 </body>

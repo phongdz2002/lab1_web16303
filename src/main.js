@@ -6,9 +6,9 @@ import { FormDangNhap } from "./pages/dangNhap";
 import { FormDangKy } from "./pages/dangKy";
 import { HomeAdmin } from "./pages/admin/dashboard";
 import { AdminHomePage } from "./components/admin/home";
-import { listNews } from "./components/admin/news";
 import { EditPage } from "./components/admin/edit";
 import { AddPage } from "./components/admin/addNews";
+import { ListNews } from "./components/admin/list";
 
 document.getElementById("menu").innerHTML = Menus.print();
 function renderHome(content) {
@@ -20,32 +20,32 @@ router.on(
         // eslint-disable-next-line no-return-assign
         "/": () => renderHome(homeHtml.print()),
         // eslint-disable-next-line no-return-assign
-        "/about": () => document.getElementById("content").innerHTML = renderHome("html"),
+        "/about": () => document.getElementById("app").innerHTML = renderHome("html"),
         "/product/:id": ({ data }) => {
             const { id } = data;
             renderHome(detailPage.print(+id));
         },
         "/login": () => {
-            document.getElementById("app").innerHTML = FormDangNhap.print();
+            document.getElementById("root").innerHTML = FormDangNhap.print();
         },
         "/resign": () => {
-            document.getElementById("app").innerHTML = FormDangKy.print();
+            document.getElementById("root").innerHTML = FormDangKy.print();
         },
         "/admin/list": () => {
             document.getElementById("");
         },
         "/admin/dashboard": () => {
-            document.getElementById("app").innerHTML = HomeAdmin.print(AdminHomePage.print());
+            document.getElementById("root").innerHTML = HomeAdmin.print(AdminHomePage.print());
         },
         "/admin/news": () => {
-            document.getElementById("app").innerHTML = HomeAdmin.print(listNews.print());
+            document.getElementById("root").innerHTML = HomeAdmin.print(ListNews.print());
         },
         "/admin/news/:id/edit": ({ data }) => {
             const { id } = data;
-            document.getElementById("app").innerHTML = HomeAdmin.print(EditPage.print(+id));
+            document.getElementById("root").innerHTML = HomeAdmin.print(EditPage.print(+id));
         },
         "/admin/news/add": () => {
-            document.getElementById("app").innerHTML = HomeAdmin.print(AddPage.print());
+            document.getElementById("root").innerHTML = HomeAdmin.print(AddPage.print());
         },
     },
 );
