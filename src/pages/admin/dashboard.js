@@ -67,7 +67,7 @@ export const HomeAdmin = {
                     ><img
                       alt="..."
                       class="w-full rounded-full align-middle border-none shadow-lg"
-                      src="../../assets/img/team-1-800x800.jpg"
+                      src="../notus-js-main/assets/img/team-1-800x800.jpg"
                   /></span></div
               ></a>
               <div
@@ -416,7 +416,7 @@ export const HomeAdmin = {
                     ><img
                       alt="..."
                       class="w-full rounded-full align-middle border-none shadow-lg"
-                      src="../../assets/img/team-1-800x800.jpg"
+                      src="../notus-js-main/assets/img/team-1-800x800.jpg"
                   /></span>
                 </div>
               </a>

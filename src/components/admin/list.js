@@ -47,7 +47,7 @@ export const ListNews = {
       
          </td>
          <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-         ${item.category === 1 ? 'Tin sinh viên' : 'Hoạt động sinh viên'}
+         ${item.category === 1 ? 'Esporst' : 'Giải trí'}
        </td>
          <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
            <a href="/admin/news/${item.id}/edit" class="hover:bg-indigo-900 bg-blue-500 text-white p-2 rounded-md">Edit</a>
