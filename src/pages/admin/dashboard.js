@@ -147,7 +147,7 @@ export const HomeAdmin = {
             <ul class="md:flex-col md:min-w-full flex flex-col list-none">
               <li class="items-center">
                 <a
-                  href="./admin/dashboard"
+                  href="/admin/dashboard"
                   class="text-xs uppercase py-3 font-bold block text-pink-500 hover:text-pink-600"
                 >
                   <i class="fas fa-tv mr-2 text-sm opacity-75"></i>
@@ -157,7 +157,7 @@ export const HomeAdmin = {
 
               <li class="items-center">
                 <a
-                  href="./admin/news"
+                  href="/admin/news"
                   class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500"
                 >
                   <i class="fas fa-tools mr-2 text-sm text-blueGray-300"></i>

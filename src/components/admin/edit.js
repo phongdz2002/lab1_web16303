@@ -5,30 +5,35 @@ export const EditPage = {
     print(id) {
         const content = productList.find((news) => news.id === id);
         return /* html */`
-        <div class="m-4">
-        <h2 class="text-danger font-bold text-4xl text-center">Chỉnh sửa bài viết</h2>
-        <form>
-        <div class="form-group">
-            <label for="example-text-input" class="form-control-label">Tiêu đề</label>
-            <input class="form-control" type="text" value="${content.name}" id="example-text-input">
+        <h2 class="text-red-500 font-bold text-4xl m-3">Cập nhật bài viết</h2>
+          <div class="">
+          <form action="" class="m-4">
+          <div class="">
+              <label for="" class="block font-bold text-lg my-2">Mã bài viết</label>
+              <input type="text" value="${content.id}" class="border-2 border-slate-800	w-1/2 p-2 rounded-md focus:border-4 focus:border-blue-500 bg-gray-200" disabled >
+          </div>
+          <div class="my-4" >
+            <label for="" class="block font-bold text-lg my-2">Tiêu đề bài viết</label>
+            <input type="text" value="${content.name}" class="border-2 border-slate-800	w-1/2 p-2 rounded-md focus:border-4 focus:border-blue-500">
         </div>
-        <div class="form-group">
-            <label for="example-search-input" class="form-control-label">Ảnh đại diện</label>
+        <div class="my-2">   
+        <label for="" class="block font-bold text-lg my-2">Ảnh đại diện</label>
             <img src="${content.img}">
         </div>
-        <div class="form-group">
-        <input class="form-control" type="file" >
+        <div class="">
+           
+            <input type="file" class="border-2 border-slate-800	w-1/2 p-2 rounded-md focus:border-4 focus:border-blue-500" >
         </div>
-        <div class="form-group">
-        <div class="input-group">
-          <span class="input-group-text">Mô tả bài viết</span>
-          <textarea class="form-control" aria-label="With textarea">${content.desc}</textarea>
+        <div class="">
+            <label for="" class="block font-bold text-lg my-2">Mô tả bài viết</label>
+            <textarea name="" id="" cols="60" rows="10" class="border-2 border-slate-800	w-1/2 p-2 rounded-md focus:border-4 focus:border-blue-500">${content.desc}</textarea>
         </div>
-    </div>
-        <button class="btn btn-info text-light font-bold">Cập nhật</button>
-        <button class="btn btn-warning  "><a href="/admin/news" class="text-light font-bold">Quay lại</a></button>
-    </form>
+        <div class="">
+            <button class="bg-blue-500 text-white p-2 rounded-md hover:bg-red-500 font-bold">Cập nhật</button>
+            <button class="bg-yellow-500 text-white p-2 rounded-md hover:bg-red-500 font-bold"><a href="/admin/news">Quay lại</a></button>
         </div>
+       </form>
+          </div>
         `;
     },
 };

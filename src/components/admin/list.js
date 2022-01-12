@@ -4,7 +4,7 @@ import { productList } from "../../data";
 export const ListNews = {
     print: () => /* html */`
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <button class="bg-black text-white p-4 m-4"><a href="./news/add">Thêm mới bài viết</a></button>
+    <button class="bg-black text-white p-4 m-4 rounded-md hover:bg-blue-500"><a href="/admin/news/add">Thêm mới bài viết</a></button>
 <div class="flex flex-col m-4">
 
 <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -13,20 +13,20 @@ export const ListNews = {
       <table class="w-full divide-y divide-gray-200 text-center ">
         <thead class="bg-gray-50">
           <tr>
-            <th scope="col" class="max-w-sm	 text-xs font-medium text-gray-500 uppercase tracking-wider">
+            <th scope="col" class="max-w-sm	 text-lg font-medium text-gray-500 uppercase tracking-wider">
               Mã bài viết
             </th>
-            <th scope="col" class="max-w-sm	 font-medium text-gray-500 uppercase tracking-wider">
+            <th scope="col" class="max-w-sm	 text-lg font-medium text-gray-500 uppercase tracking-wider">
               Tiêu đề
             </th>
-            <th scope="col" class=" max-w-sm	 font-medium text-gray-500 uppercase tracking-wider">
+            <th scope="col" class=" max-w-sm text-lg	 font-medium text-gray-500 uppercase tracking-wider">
               Ảnh đại diện
             </th>
-            <th scope="col" class=" max-w-sm	 font-medium text-gray-500 uppercase tracking-wider">
+            <th scope="col" class=" max-w-sm	text-lg font-medium text-gray-500 uppercase tracking-wider">
               Danh mục
             </th>
             <th scope="col" class="relative max-w-sm	">
-              <span class="sr-only">Edit</span>
+              
             </th>
           </tr>
         </thead>
@@ -34,7 +34,7 @@ export const ListNews = {
          ${productList.map((item)=>/*html*/`
          <tr>
          <td class=" whitespace-nowrap h-4">
-           <div class="flex items-center">
+           <div class="text-center">
            ${item.id}
            </div>
          </td>
@@ -50,7 +50,10 @@ export const ListNews = {
          ${item.category === 1 ? 'Tin sinh viên' : 'Hoạt động sinh viên'}
        </td>
          <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-           <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+           <a href="/admin/news/${item.id}/edit" class="hover:bg-indigo-900 bg-blue-500 text-white p-2 rounded-md">Edit</a>
+         </td>
+         <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+           <a href="#" class=" hover:bg-indigo-900 bg-red-500 text-white p-2 rounded-md">Delete</a>
          </td>
        </tr>
          
