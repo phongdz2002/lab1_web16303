@@ -4,7 +4,7 @@ export const productList = [
         id: 1,
         name: "Những bức ảnh không Photoshop chút nào nhưng trông vẫn ảo thôi rồi",
         desc: "Ảnh chụp là một điều gì đó rất đặc biệt, nó có thể đánh lừa người xem một cách chóng mặt khiến họ tưởng rằng đó là Photoshop.",
-        img: "https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2022/1/12/photo-1-164199444871082038695.png",
+        img: "./src/img/product.jpg",
         category: 1,
     },
     {

@@ -6,8 +6,8 @@ export const listMenu = [
         address: "/",
     },
     {
-        content: "Tuyển sinh",
-        address: "/tuyensinh",
+        content: "News",
+        address: "/news",
     },
     {
         content: "Chương trình đào tạo",

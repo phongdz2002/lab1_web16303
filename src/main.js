@@ -9,6 +9,7 @@ import { AdminHomePage } from "./components/admin/home";
 import { ListNews } from "./components/admin/list";
 import { AddNewPage } from "./pages/admin/addPage";
 import { EditNewsPage } from "./pages/admin/editPage";
+import { SiteNewPage } from "./pages/news";
 
 document.getElementById("menu").innerHTML = Menus.print();
 function renderHome(content) {
@@ -20,8 +21,10 @@ router.on(
         // eslint-disable-next-line no-return-assign
         "/": () => renderHome(homeHtml.print()),
         // eslint-disable-next-line no-return-assign
-        "/about": () => document.getElementById("app").innerHTML = renderHome("html"),
-        "/product/:id": ({ data }) => {
+        "/news": () => {
+            document.getElementById("content").innerHTML = SiteNewPage.print();
+        },
+        "/news/:id": ({ data }) => {
             const { id } = data;
             renderHome(detailPage.print(+id));
         },
@@ -30,9 +33,6 @@ router.on(
         },
         "/resign": () => {
             document.getElementById("root").innerHTML = FormDangKy.print();
-        },
-        "/admin/list": () => {
-            document.getElementById("");
         },
         "/admin/dashboard": () => {
             document.getElementById("root").innerHTML = HomeAdmin.print(AdminHomePage.print());
