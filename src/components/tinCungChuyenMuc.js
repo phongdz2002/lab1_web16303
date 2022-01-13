@@ -6,7 +6,7 @@ import { productList } from "../data";
 export const TinCungChuyenMuc = {
     // eslint-disable-next-line camelcase
     print: (id, id_diff) =>/* html */ `
-    <h3 class="font-bold text-2xl my-2">Tin cùng chuyên mục</h3>
+    <h3 class="font-bold text-4xl my-2">Tin cùng chuyên mục</h3>
     <div  class="grid grid-cols-3 ">
         ${productList.map((item) => {
         // eslint-disable-next-line camelcase

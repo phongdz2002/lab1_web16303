@@ -37,6 +37,10 @@ export const EditPage = {
             <textarea name="" id="" cols="60" rows="10" class="border-2 border-slate-800	w-1/2 p-2 rounded-md focus:border-4 focus:border-blue-500">${content.desc}</textarea>
         </div>
         <div class="">
+        <label for="" class="block font-bold text-lg my-2">Nội dung bài viết</label>
+        <textarea name="" id="" cols="60" rows="10" class="border-2 border-slate-800	w-1/2 p-2 rounded-md focus:border-4 focus:border-blue-500">${content.content}</textarea>
+    </div>
+        <div class="">
             <button class="bg-blue-500 text-white p-2 rounded-md hover:bg-red-500 font-bold">Cập nhật</button>
             <button class="bg-yellow-500 text-white p-2 rounded-md hover:bg-red-500 font-bold"><a href="/admin/news">Quay lại</a></button>
         </div>
