@@ -18,6 +18,14 @@ export const AddPage = {
             <input type="file" class="border-2 border-slate-800	w-1/2 p-2 rounded-md focus:border-4 focus:border-blue-500" >
         </div>
         <div class="">
+        <label for="" class="block font-bold text-lg my-2">Danh mục</label>
+        <select  class="border-2 border-slate-800 w-1/2 p-2 rounded-md focus:border-4 focus:border-blue-500" >
+             <option>Danh mục bài viết</option>
+            <option>Esports</option>
+            <option>Giải trí</option>
+        </select>
+    </div>
+        <div class="">
             <label for="" class="block font-bold text-lg my-2">Mô tả bài viết</label>
             <textarea name="" id="" cols="60" rows="10" class="border-2 border-slate-800	w-1/2 p-2 rounded-md focus:border-4 focus:border-blue-500"></textarea>
         </div>
