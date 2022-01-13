@@ -11,22 +11,24 @@ import { AddNewPage } from "./pages/admin/addPage";
 import { EditNewsPage } from "./pages/admin/editPage";
 import { SiteNewPage } from "./pages/news";
 
-document.getElementById("menu").innerHTML = Menus.print();
-function renderHome(content) {
-    document.getElementById("content").innerHTML = content;
+const menu = document.getElementById("menu");
+if (menu) {
+    menu.innerHTML = Menus.print();
 }
 const router = new Navigo("/", { linksSelector: "a" });
 router.on(
     {
         // eslint-disable-next-line no-return-assign
-        "/": () => renderHome(homeHtml.print()),
+        "/": () => {
+            document.getElementById("content").innerHTML = homeHtml.print();
+        },
         // eslint-disable-next-line no-return-assign
         "/news": () => {
             document.getElementById("content").innerHTML = SiteNewPage.print();
         },
         "/news/:id": ({ data }) => {
             const { id } = data;
-            renderHome(detailPage.print(+id));
+            document.getElementById("content").innerHTML = detailPage.print(+id);
         },
         "/login": () => {
             document.getElementById("root").innerHTML = FormDangNhap.print();
