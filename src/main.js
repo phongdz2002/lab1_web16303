@@ -6,9 +6,9 @@ import { FormDangNhap } from "./pages/dangNhap";
 import { FormDangKy } from "./pages/dangKy";
 import { HomeAdmin } from "./pages/admin/dashboard";
 import { AdminHomePage } from "./components/admin/home";
-import { EditPage } from "./components/admin/edit";
-import { AddPage } from "./components/admin/addNews";
 import { ListNews } from "./components/admin/list";
+import { AddNewPage } from "./pages/admin/addPage";
+import { EditNewsPage } from "./pages/admin/editPage";
 
 document.getElementById("menu").innerHTML = Menus.print();
 function renderHome(content) {
@@ -42,10 +42,10 @@ router.on(
         },
         "/admin/news/:id/edit": ({ data }) => {
             const { id } = data;
-            document.getElementById("root").innerHTML = HomeAdmin.print(EditPage.print(+id));
+            document.getElementById("root").innerHTML = HomeAdmin.print(EditNewsPage.print(+id));
         },
         "/admin/news/add": () => {
-            document.getElementById("root").innerHTML = HomeAdmin.print(AddPage.print());
+            document.getElementById("root").innerHTML = HomeAdmin.print(AddNewPage.print());
         },
     },
 );
