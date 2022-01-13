@@ -6,6 +6,7 @@ export const productList = [
         desc: "Ảnh chụp là một điều gì đó rất đặc biệt, nó có thể đánh lừa người xem một cách chóng mặt khiến họ tưởng rằng đó là Photoshop.",
         img: "https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2022/1/12/photo-1-164199444871082038695.png",
         category: 1,
+        content: "Có vẻ như ý tưởng trong anime Paprika của Satoshi Kon đã được đạo diễn Christopher Nolan mượn cho bộ phim của ông - Inception. Cả hai bộ phim đều nói về khái niệm một cỗ máy được sử dụng để tác động và ảnh hưởng đến giấc ngủ của người khác và có nhiều cảnh chiến đấu còn được mượn trực tiếp từ Paprika.",
     },
     {
         id: 2,
@@ -13,6 +14,7 @@ export const productList = [
         desc: "Cùng điểm qua 10 bộ phim nổi tiếng được lấy cảm hứng từ anime Nhật Bản nhé!",
         img: "https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2022/1/12/edit-photo-2-16419731991471250466047.jpeg",
         category: 1,
+        content: "Có vẻ như ý tưởng trong anime Paprika của Satoshi Kon đã được đạo diễn Christopher Nolan mượn cho bộ phim của ông - Inception. Cả hai bộ phim đều nói về khái niệm một cỗ máy được sử dụng để tác động và ảnh hưởng đến giấc ngủ của người khác và có nhiều cảnh chiến đấu còn được mượn trực tiếp từ Paprika.",
     },
     {
         id: 3,
@@ -20,6 +22,7 @@ export const productList = [
         desc: "Chap 5 của dự án spinoff đặc biệt về Sanji đã mang đến nhiều thông tin thú vị khiến các fan vô cùng phấn khích.",
         img: "https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2022/1/12/avata-1641963692140164111193.jpg",
         category: 1,
+        content: "Có vẻ như ý tưởng trong anime Paprika của Satoshi Kon đã được đạo diễn Christopher Nolan mượn cho bộ phim của ông - Inception. Cả hai bộ phim đều nói về khái niệm một cỗ máy được sử dụng để tác động và ảnh hưởng đến giấc ngủ của người khác và có nhiều cảnh chiến đấu còn được mượn trực tiếp từ Paprika.",
     },
     {
         id: 4,
@@ -27,6 +30,7 @@ export const productList = [
         desc: "Mới đây, cựu huyền thoại Liên Quân bức xúc khi mua một sản phẩm đã bị “bóc hộp, phá tem”.",
         img: "https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2022/1/12/photo-1-15770186362751642298137-16419837676431253440463.png",
         category: 2,
+        content: "Có vẻ như ý tưởng trong anime Paprika của Satoshi Kon đã được đạo diễn Christopher Nolan mượn cho bộ phim của ông - Inception. Cả hai bộ phim đều nói về khái niệm một cỗ máy được sử dụng để tác động và ảnh hưởng đến giấc ngủ của người khác và có nhiều cảnh chiến đấu còn được mượn trực tiếp từ Paprika.",
     },
     {
         id: 5,
@@ -34,6 +38,7 @@ export const productList = [
         desc: "Những sự giống nhau đầy bất ngờ giữa diễn viên trong phim và các nhân vật hoạt hình sẽ khiến bạn thích thú đấy!",
         img: "https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2022/1/12/22-actores-y-actrices-que-se-ven-igual-que-su-caricatura-large-relfwtyib7-16419713258761251731001.jpg",
         category: 2,
+        content: "Có vẻ như ý tưởng trong anime Paprika của Satoshi Kon đã được đạo diễn Christopher Nolan mượn cho bộ phim của ông - Inception. Cả hai bộ phim đều nói về khái niệm một cỗ máy được sử dụng để tác động và ảnh hưởng đến giấc ngủ của người khác và có nhiều cảnh chiến đấu còn được mượn trực tiếp từ Paprika.",
     },
     {
         id: 6,
@@ -41,5 +46,6 @@ export const productList = [
         desc: "PUBG trở thành game miễn phí từ hôm nay.",
         img: "https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2022/1/12/photo-1-1641982905979959241098.jpg",
         category: 2,
+        content: "Có vẻ như ý tưởng trong anime Paprika của Satoshi Kon đã được đạo diễn Christopher Nolan mượn cho bộ phim của ông - Inception. Cả hai bộ phim đều nói về khái niệm một cỗ máy được sử dụng để tác động và ảnh hưởng đến giấc ngủ của người khác và có nhiều cảnh chiến đấu còn được mượn trực tiếp từ Paprika.",
     },
 ];
