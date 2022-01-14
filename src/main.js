@@ -11,6 +11,10 @@ import { AddNewPage } from "./pages/admin/addPage";
 import { EditNewsPage } from "./pages/admin/editPage";
 import { SiteNewPage } from "./pages/news";
 
+const menu = document.getElementById("menu");
+if (menu) {
+    menu.innerHTML = Menus.print();
+}
 const router = new Navigo("/", { linksSelector: "a" });
 router.on(
     {
@@ -48,7 +52,3 @@ router.on(
     },
 );
 router.resolve();
-const menu = document.getElementById("menu");
-if (menu) {
-    menu.innerHTML = Menus.print();
-}
