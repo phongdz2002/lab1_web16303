@@ -4,17 +4,13 @@ import { Menus } from "./components/menu";
 import { detailPage } from "./pages/detailPage";
 import { FormDangNhap } from "./pages/dangNhap";
 import { FormDangKy } from "./pages/dangKy";
-import { HomeAdmin } from "./pages/admin/dashboard";
+import { AdminPage } from "./pages/admin/dashboard";
 import { AdminHomePage } from "./components/admin/home";
 import { ListNews } from "./components/admin/list";
 import { AddNewPage } from "./pages/admin/addPage";
 import { EditNewsPage } from "./pages/admin/editPage";
 import { SiteNewPage } from "./pages/news";
 
-const menu = document.getElementById("menu");
-if (menu) {
-    menu.innerHTML = Menus.print();
-}
 const router = new Navigo("/", { linksSelector: "a" });
 router.on(
     {
@@ -37,18 +33,22 @@ router.on(
             document.getElementById("root").innerHTML = FormDangKy.print();
         },
         "/admin/dashboard": () => {
-            document.getElementById("root").innerHTML = HomeAdmin.print(AdminHomePage.print());
+            document.getElementById("root").innerHTML = AdminPage.print(AdminHomePage.print());
         },
         "/admin/news": () => {
-            document.getElementById("root").innerHTML = HomeAdmin.print(ListNews.print());
+            document.getElementById("root").innerHTML = AdminPage.print(ListNews.print());
         },
         "/admin/news/:id/edit": ({ data }) => {
             const { id } = data;
-            document.getElementById("root").innerHTML = HomeAdmin.print(EditNewsPage.print(+id));
+            document.getElementById("root").innerHTML = AdminPage.print(EditNewsPage.print(+id));
         },
         "/admin/news/add": () => {
-            document.getElementById("root").innerHTML = HomeAdmin.print(AddNewPage.print());
+            document.getElementById("root").innerHTML = AdminPage.print(AddNewPage.print());
         },
     },
 );
 router.resolve();
+const menu = document.getElementById("menu");
+if (menu) {
+    menu.innerHTML = Menus.print();
+}

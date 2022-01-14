@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/prefer-default-export
-export const HomeAdmin = {
+export const AdminPage = {
     print: (content) => /* html */ `
     
       <nav
